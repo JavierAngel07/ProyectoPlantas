@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Roboto;
+	background: #468A12;
+}
+
+header{
+	width:100%;
+	background: #000000;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.logo{
+	float: left;
+}
+
+.logo img{
+	width:150px;
+}
+
+#redes{
+	float: right;
+}
+
+#redes img{
+	width:50px; 
+}
+
+.btn{
+	top:20px;
+	margin-left:20px; 
+	border-radius:50px;
+	opacity: 0.5;
+}
+
+.btn:hover{
+	opacity:1; 
+}
+
+
+/*Estilos de Botonera*/
+
+.botonera{
+	width:100%;
+	background:#FF0004;
+	text-align: center;
+}
+
+.botonera ul{
+	list-style:none; 
+}
+
+
+.botonera li{
+	display: inline-block;
+}
+
+.botonera a{
+	text-decoration:none;
+	display: block;
+	padding: 20px;
+	color:#FFFFFF;
+}
+
+.botonera a:hover{
+	color: #B5B0B0;
+}
+
+.banner img{
+	width:100%; 
+}
+
+section{
+	width:80%;
+	margin:auto;
+}
+
+article{
+	width: 300px;
+	background:#A37723;
+	padding:10px;
+	margin: 10px;
+	display: inline-block;
+}
+
+article h2{
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 5px;
+}
+
+.img-article{
+	width:100%; 
+}
+
+.leer{
+	padding:10px;
+	background: #1837AE;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+footer{
+	background: #000000;
+	padding: 10px;
+}
+
+footer p{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+/*Estilos de Contactos*/
+main{
+	width: 1000px;
+	margin: auto;
+}
+
+.titulo h3{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.titulo p{
+	text-align: justify;
+	margin-top: 10px;
+}
+
+.aside{
+	width:1000px;
+	margin-top:20px;
+}
+
+aside{
+	width:45%;
+	float: left;
+}
+
+aside img{
+	width: 100%;
+}
+
+footer{
+	clear: both;
+}
+
+.mapa{
+	margin-top: 20px;
+}
