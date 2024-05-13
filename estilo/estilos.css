@@ -175,7 +175,34 @@ footer {
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-.tbgal{
+
+.tbgal {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.bodservicios{
+	background: #dd3e54;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #6be585, #dd3e54);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #6be585, #dd3e54);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#cc {
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 20px;
+	font-style: italic;
+}
+.lineales{
+ border: 3px solid black;
+}
+.parrservicios{
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	font-size: large;
+	margin: 10px;
 }
